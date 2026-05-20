@@ -12,9 +12,9 @@ def display_board(board):
         else:
             return Fore.YELLOW +cell+Style.RESET_ALL
     print(' ' + colored(board[0]) + ' | ' + colored(board[1]) + ' | ' + colored(board[2]))
-    print('———–')
+    print('————————————————————————')
     print(' ' + colored(board[3]) + ' | ' + colored(board[4]) + ' | ' + colored(board[5]))
-    print('———–')
+    print('———–————————————————————')
     print(' ' + colored(board[6]) + ' | ' + colored(board[7]) + ' | ' + colored(board[8]))
     print()
 def player_choice():
